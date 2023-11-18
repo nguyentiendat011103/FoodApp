@@ -1,0 +1,45 @@
+.content{
+    background-image: url("/assest/images/download (2).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px 20px;
+    background-size: cover;
+    animation-name: example;
+    animation-duration: 20s;
+    height: 500px;
+    margin: 10px
+}
+@keyframes example {
+    0%   {background-image: url('/assest/images/download (2).jpg');}
+    25%  {background-image: url('/assest/images/download.jpg');}
+    50%  {background-image: url('/assest/images/images.jpg');}
+    100% {background-image: url('/assest/images/images (1).jpg');}
+  }
+
+  #marquee {
+    filter: drop-shadow(0px 1px black) drop-shadow(0 -1px black) drop-shadow(1px 0 black) drop-shadow(-1px 0 black);
+    font-size: 4em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+    .video{
+        width: 100%;
+        height: 500px;
+
+    }
+
+#steak{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: cursive;
+    transform: translate(25%, 25%);
+    
+}
+#ramon{
+    font-size: 20px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(25%, 25%);
+    
+}
